@@ -1,0 +1,777 @@
+[30-Oct-2019 23:09:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:10:28 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:10:54 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:10:55 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:11:14 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:12:33 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:12:57 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:18:31 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:18:33 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:18:35 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:18:59 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:19:19 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:19:55 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:19:56 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:20:38 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:21:14 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:29:54 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:33:03 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:33:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:35:18 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:48:18 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:48:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:48:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:48:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:48:22 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:48:22 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:49:36 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:49:37 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:49:41 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:51:16 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:51:20 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:51:37 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:51:41 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:56:36 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[30-Oct-2019 23:59:13 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 00:06:39 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 00:06:41 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 00:06:41 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 00:06:42 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 00:06:42 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 01:02:26 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 01:04:01 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 01:04:07 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 01:05:00 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 01:05:05 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[31-Oct-2019 05:17:01 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get_where() on null in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php:8
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(83): M_usuario->getUsuario('admin', '90b9aa7e25f80cf...')
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Login->entrar()
+#2 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#3 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php on line 8
+[31-Oct-2019 08:05:15 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get_where() on null in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php:8
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(83): M_usuario->getUsuario('admin', '90b9aa7e25f80cf...')
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Login->entrar()
+#2 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#3 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php on line 8
+[31-Oct-2019 09:47:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get_where() on null in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php:8
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(83): M_usuario->getUsuario('admin', '90b9aa7e25f80cf...')
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Login->entrar()
+#2 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#3 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php on line 8
+[31-Oct-2019 17:12:12 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get_where() on null in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php:8
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(83): M_usuario->getUsuario('admin', '90b9aa7e25f80cf...')
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Login->entrar()
+#2 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#3 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php on line 8
+[02-Nov-2019 20:36:49 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get_where() on null in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php:8
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(83): M_usuario->getUsuario('admin', '90b9aa7e25f80cf...')
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Login->entrar()
+#2 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#3 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php on line 8
+[02-Nov-2019 20:36:50 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get_where() on null in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php:8
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(83): M_usuario->getUsuario('admin', '90b9aa7e25f80cf...')
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Login->entrar()
+#2 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#3 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php on line 8
+[02-Nov-2019 20:43:05 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:43:10 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:43:43 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:43:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:44:43 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get_where() on null in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php:8
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(83): M_usuario->getUsuario('admin', '90b9aa7e25f80cf...')
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Login->entrar()
+#2 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#3 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/a_d2232/models/m_usuario.php on line 8
+[02-Nov-2019 20:45:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:46:13 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:46:17 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:47:22 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:47:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:52:49 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[02-Nov-2019 20:52:54 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home1/edufycom/test.edufy.com.mx/s_s2698/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(346): DB(Array, NULL)
+#3 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(1171): CI_Loader->database()
+#4 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home1/edufycom/test.edufy.com.mx/s_s2698/core/Controller.php(51): CI_Loader->initialize()
+#6 /home1/edufycom/test.edufy.com.mx/a_d2232/controllers/login.php(7): CI_Controller->__construct()
+#7 /home1/edufycom/test.edufy.com.mx/s_s2698/core/CodeIgniter.php(308): Login->__construct()
+#8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#9 {main}
+  thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91

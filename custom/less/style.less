@@ -1,0 +1,127 @@
+// out: ../css/style.css, sourcemap: false, compress: true
+
+@azul: #0099E5;
+@verde: #B4C539;
+
+body{
+    font-family: 'Open Sans';
+    background: transparent url(../images/general/patterns/sos.png);
+}
+
+.table-hover{
+    tr:hover{
+        background-color: lighten(@verde, 30) !important;
+    }
+}
+
+#btn_he_add, #lnk_asignar_colabs{
+  margin-top: 10px;
+}
+
+#btn_add_candidato{
+  margin-bottom: 50px;
+}
+
+#page-title{
+    background-color: darken(@azul, 20);
+    color: lighten(@azul, 40);
+    border-bottom: 5px @azul solid;
+    margin-bottom: 15px;
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+    height: 200px;
+}
+
+.del_usuario, .del_empresa{
+    width: 20px;
+    height: 20px;
+    background: transparent url(../images/general/user_delete_20x20.png) no-repeat center center;
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+#c_cliente,
+#c_colaborador,
+#c_lista_candidatos{
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+#c_lista_candidatos{
+    width: 300px;
+    border-radius: 5px;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+#candidatos_simbologia div,
+#c_lista div,
+.c_lista{
+    min-height: 30px;
+    line-height: 20px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+.c_viable,
+.c_viable a,
+.c_noViable,
+.c_noViable a{
+    color: #fff;
+}
+
+.c_noAsignado{background-color: #87CEEB}
+.c_asignado{background-color: #F0E68C}
+.c_viable{background-color: #76933C}
+.c_conReservas{background-color: #FFC000}
+.c_noViable{background-color: #C00000}
+.c_cancelado{background-color: #ccc}
+
+.candidatoActivo{
+    font-weight: bold;
+}
+
+.del_candidato{
+    width: 20px;
+    height: 20px;
+    background: transparent url(../images/general/user_delete_20x20.png) no-repeat center center;
+}
+
+.item_xls{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    background: transparent url(../images/general/xls_22x22.png) no-repeat center center;
+}
+
+.item_pdf{
+    width: 22px;
+    height: 22px;
+    background: transparent url(../images/general/pdf_22x22.png) no-repeat center center;
+}
+
+.bloque-derecho{
+    border-left: 1px solid #ddd; 
+}
+
+.bloque-izquierdo{
+    border-right: 1px solid #ddd; 
+}
