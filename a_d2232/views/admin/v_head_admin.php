@@ -49,7 +49,6 @@
 
             <div class="row">
                 <ul class="nav nav-tabs">
-                  
                   <li role="presentation" class="menu-usuarios"><?php echo anchor('admin/usuarios', 'Usuarios', array('class'=>'block left menu-usuarios')); ?></li>
                   <li role="presentation" class="pull-right"><?php echo anchor('login/logout', 'Cerrar Sesi&oacute;n ['.$usuario->login.']', array('class'=>'action_logout label label-danger')); ?></li>
                 </ul>

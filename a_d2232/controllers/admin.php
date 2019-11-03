@@ -17,7 +17,7 @@
         //Interfaz de entrada de la administracion
         public function index()
         {
-            redirect('admin/evaluaciones', 'refresh');
+            redirect('admin/usuarios', 'refresh');
         }
 
         /*
@@ -31,13 +31,13 @@
             //Tipos de usuario
             $tipo_admin = $this->m_usuario_tipo->get_by_tipo('ADMIN');
             $tipo_colab = $this->m_usuario_tipo->get_by_tipo('COLABORADOR');
-            $tipo_cliente = $this->m_usuario_tipo->get_by_tipo('CLIENTE');
+            $tipo_control_escolar = $this->m_usuario_tipo->get_by_tipo('CONTROL ESCOLAR');
 
             //Administradores
             $data['admins'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_admin->id);
 
             //Clientes
-            $data['clientes'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_cliente->id);
+            $data['control_escolar'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_control_escolar->id);
 
             //Colaboradores
             $data['colabs'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_colab->id);

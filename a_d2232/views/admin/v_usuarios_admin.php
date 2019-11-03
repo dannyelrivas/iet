@@ -64,8 +64,6 @@
                 <div class="col-xs-6">
                     <?php echo form_label("Tipo de Cuenta:" ).form_dropdown("UsuarioTipo_id", $dropdown_tipos_usuario, '', 'class="form-control"'); ?>
                 </div>
-
-                
             </div>
 
             <?php echo form_submit(array("name" => "guardar","value"=>"Guardar", "class"=> "btn btn-success pull-right")); ?>
@@ -98,8 +96,8 @@
         <?php endforeach; ?>
 
         <br />
-        <h4>Clientes</h4>
-        <?php foreach($clientes as $i): ?>
+        <h4>Control Escolar</h4>
+        <?php foreach($control_escolar as $i): ?>
             <div class="well well-sm well-lista">
                 <?php echo anchor("", $i->nombre." ".$i->apellidoPaterno." ".$i->apellidoMaterno, array("usuario_id"=>$i->id, "class"=>"item_usuario" )); ?>
                 <?php echo anchor("usuario/del", " ", array("usuario_id"=>$i->id, "class" => "right del_usuario" )); ?>

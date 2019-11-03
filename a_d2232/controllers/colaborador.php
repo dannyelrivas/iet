@@ -17,7 +17,7 @@ class Colaborador extends CI_Controller {
     
     public function index()
     {
-        $data['page_title'] = 'IET - Panel de Colaborador';
+        $data['page_title'] = 'Licipsa - Panel de Colaborador';
         
         $data['evals_s'] = $this->m_evaluacion->get_colaborador_pendientes_s( $this->usuario->id );
         $data['evals_r'] = $this->m_evaluacion->get_colaborador_pendientes_r( $this->usuario->id );
