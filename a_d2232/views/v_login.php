@@ -11,7 +11,7 @@
                 <div class="logo"></div>
                 <?php 
                     echo form_open('login/entrar')
-                        .form_input( array('name' => 'login', 'class'=> 'username','placeholder'=>'Username') ) 
+                        .form_input( array('name' => 'login', 'class'=> 'username','placeholder'=>'Usuario') ) 
                         .form_password( array('name' => 'pwd', 'class'=> 'password','placeholder'=>'•••••••') )
                         .form_submit( array('name' => 'entrar', 'value' => 'Entrar', 'class'=> 'submit') )    
                     .form_close(); 
