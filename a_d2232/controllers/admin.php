@@ -8,7 +8,7 @@
         function __construct()
         {
             parent::__construct();
-            $this->load->model(array('m_usuario', 'm_evaluacion', 'm_candidato', 'm_empresa', 'm_usuario_tipo'));
+            $this->load->model(array('m_usuario', 'm_usuario_tipo','m_alumnos'));
             $this->load->library(array('password', 'formulario', 'fechas', 'table'));
 
             $this->usuario = $this->m_usuario->get($this->session->userdata('id'));
@@ -53,6 +53,18 @@
             $this->load->view('admin/v_head_admin', $data);
             $this->load->view('admin/v_usuarios_admin');
             $this->load->view('admin/v_foot_admin');
+        }
+
+        public function alumnos()
+        {
+            $data['page_title'] = 'IET - Administracion de usuarios';
+
+            $data['alumnos'] = $this->m_alumnos->lista();
+
+            $data['usuario'] = $this->usuario;
+
+            $this->load->view('admin/v_head_admin', $data);
+            $this->load->view('alumnos/v_alumnos');
         }
 
         /*
