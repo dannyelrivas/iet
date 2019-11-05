@@ -44,28 +44,29 @@
 | The $active_record variables lets you determine whether or not to load
 | the active record class
 */
-
 $active_group = 'default';
-$active_record = TRUE;
+$query_builder = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'edufycom_iet';
-$db['default']['password'] = 'iet2019';
-//$db['default']['username'] = 'psiconet_liciphp';
-//$db['default']['password'] = '5%rm7dIng-^p';
-$db['default']['database'] = 'edufycom_ietbk';
-$db['default']['dbdriver'] = 'mysqli';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = FALSE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
-
-
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'edufycom_iet',
+	'password' => 'iet2019',
+	'database' => 'edufycom_iet',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
 /* End of file database.php */
 /* Location: ./application/config/database.php */
