@@ -3,7 +3,7 @@
  *
  */
 
-var WDIR = ''; //Change to '' if is on root
+var WDIR = 'licipsa/'; //Change to '' if is on root
 var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;
 
 function inputVal(form_id, campo)

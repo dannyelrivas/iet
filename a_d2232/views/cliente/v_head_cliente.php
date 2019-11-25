@@ -14,7 +14,7 @@
 
         <title><?php echo $page_title; ?></title>
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
         <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>vendor/jquery-ui/css/start/jquery-ui-1.10.2.custom.min.css" />

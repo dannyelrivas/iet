@@ -60,7 +60,7 @@ class Login extends CI_Controller {
                 
             } else {
                 
-                $data['page_title'] = 'Entrar - IET';
+                $data['page_title'] = 'Entrar - Licipsa';
                 $this->load->view('v_login', $data);
                 
             }

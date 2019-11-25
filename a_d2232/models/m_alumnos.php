@@ -2,7 +2,7 @@
 
 class M_alumnos extends CI_Model{
 
-	public function add($alumno)
+	function add($alumno)
     {
         $this->db->insert('alumnos', $alumno); 
         return $this->db->insert_id();
@@ -24,13 +24,19 @@ class M_alumnos extends CI_Model{
         return $q->row();
     }
 
+    public function buscar($codigo)
+    {
+        $q = $this->db->get_where('alumnos', array('codigoalumno' => $codigo));
+        return $q->row();
+    }
+
     public function lista()
     {
     	$q = $this->db->order_by('id', 'desc');
     	$q = $this->db->get('alumnos');
         
         $alumnos = $q->result();
+
         return $alumnos;
     }
-
 }

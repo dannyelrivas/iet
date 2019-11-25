@@ -15,7 +15,7 @@
 
         <title><?php echo $page_title; ?></title>
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
         <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>vendor/jquery-ui/css/start/jquery-ui-1.10.2.custom.min.css" />
@@ -37,6 +37,7 @@
         <script src="<?php echo base_url(); ?>custom/js/admin_autocomplete.js" type="text/javascript"></script>
         <script src="<?php echo base_url(); ?>custom/js/admin.js" type="text/javascript"></script>
         <script src="<?php echo base_url(); ?>custom/js/validacion.js"> </script>
+        <script src="<?php echo base_url(); ?>custom/js/jsQR.js"></script>
     </head>
 
     <body>
@@ -50,7 +51,8 @@
             <div class="row">
                 <ul class="nav nav-tabs">
                   <li role="presentation" class="menu-usuarios"><?php echo anchor('admin/usuarios', 'Usuarios', array('class'=>'block left menu-usuarios')); ?></li>
-                  <li role="presentation" class="menu-usuarios"><?php echo anchor('admin/alumnos', 'Alumnos', array('class'=>'block left menu-usuarios')); ?></li>
+                  <li role="presentation" class="menu-alumnos"><?php echo anchor('admin/alumnos', 'Alumnos', array('class'=>'block left menu-alumnos')); ?></li>
+                  <li role="presentation" class="menu-salidas"><?php echo anchor('admin/salidas', 'Salidas', array('class'=>'block left menu-alumnos')); ?></li>
                   <li role="presentation" class="pull-right"><?php echo anchor('login/logout', 'Cerrar Sesi&oacute;n ['.$usuario->login.']', array('class'=>'action_logout label label-danger')); ?></li>
                 </ul>
             </div><!--row-->

@@ -37,6 +37,51 @@ jQuery(document).ready(function($){
 
    });
 
+   $('#buscaralumno').click(function(e){
+    e.preventDefault();
+    
+    var codigo_alumno = $('#alumno_txt').val();
+    var url_buscar = WROOT+'alumnos/buscar';
+
+    $.ajax({
+                url: WROOT+'alumnos/buscar',
+                type: 'POST',
+                data: { 'codigo' : codigo_alumno }
+           }).done(function(data, textStatus, jqXHR){
+                
+                var alumno = JSON.parse(data);
+
+                if(alumno.length == 0)
+                {
+                  var div = $('<div>No se encontró el alumno</div>');
+                  div.dialog({
+                    title: "Error",
+                    buttons: [
+                          {text: "Aceptar",
+                click: function () {
+                  div.dialog("close");
+                }}]});
+                }
+                else
+                {
+                  $('#nombre_alumno').val(alumno.nombre);
+                  $('#apaterno_alumno').val(alumno.apaterno);
+                  $('#amaterno_alumno').val(alumno.amaterno);
+                  $('#codigo_alumno').val(alumno.codigoalumno);
+                  $('#nivel_alumno').val(alumno.nivel);
+                  $('#grado_alumno').val(alumno.grado);
+                  $('#grupo_alumno').val(alumno.grupo);
+                  $('#salon_alumno').val(alumno.salon);
+                  $('#id_alumno').val(alumno.id);
+                }
+                
+           }).fail(function(jqXHR, textStatus, error){
+            console.log("Entro al fail");
+            alert("Sucedió un error. Intente de nuevo.");
+           });
+
+   });
+
    /*
     * Boton para eliminar usuario
     */
