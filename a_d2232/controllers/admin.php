@@ -17,7 +17,8 @@
         //Interfaz de entrada de la administracion
         public function index()
         {
-            redirect('admin/usuarios', 'refresh');
+            //redirect('admin/usuarios', 'refresh');
+            redirect('admin/alumnos', 'refresh');
         }
 
         /*
@@ -62,6 +63,17 @@
 
             $this->load->view('admin/v_head_admin', $data);
             $this->load->view('admin/v_salidas_admin');
+            $this->load->view('admin/v_foot_admin');
+        }
+
+        public function salones()
+        {
+            $data['page_title'] = 'IET - Salones de alumnos';
+            //$data['alumnos'] = $this->m_salones->lista();
+            $data['usuario'] = $this->usuario;
+
+            $this->load->view('admin/v_head_admin', $data);
+            $this->load->view('admin/v_salones_admin');
             $this->load->view('admin/v_foot_admin');
         }
 

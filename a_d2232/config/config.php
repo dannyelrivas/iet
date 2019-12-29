@@ -14,7 +14,9 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://iet.edufy.com.mx/';//+++++++++++++Editame+++++++++++++++++++++++++++++++++++++
+//$config['base_url'] = 'https://iet.edufy.com.mx/';//BASE URL PRODCUTION
+$config['base_url'] = '';//BASE URL DEVELOPMENT
+
 
 /*
 |--------------------------------------------------------------------------

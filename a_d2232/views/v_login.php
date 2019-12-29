@@ -45,7 +45,7 @@
             <div class="col s12 z-depth-6 card-panel">
                 <div class="row">
                     <div class="col s6 offset-s3">
-                        <img class="responsive-img" src="../custom/images/login/logo.png">
+                        <img class="responsive-img" src="https://iet.edufy.com.mx/custom/images/login/logo.png">
                     </div>
                 </div>
                 <div class="row">

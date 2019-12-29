@@ -13,7 +13,7 @@ class M_usuario_tipo extends CI_Model{
     
     function getAll()
     {
-        $q = $this->db->order_by('tipo', 'asc');
+        $q = $this->db->order_by('id', 'asc');
         $q = $this->db->get('UsuarioTipo');
         return $q->result();
     }

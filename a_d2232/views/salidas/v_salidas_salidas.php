@@ -4,7 +4,7 @@
           jsQR(...);
         </script>
           	<h1>jsQR Demo</h1>
-		  	<div id="loadingMessage">🎥 Unable to access video stream (please make sure you have a webcam enabled)</div>
+		  	<div id="loadingMessage">🎥 No se puede acceder a la transmisión de video (asegúrese de tener una cámara web habilitada)</div>
 		  	<canvas id="canvas" hidden></canvas>
 		  	<div id="output" hidden>
 		    	<div id="outputMessage">No se detecta codigo QR.</div>
@@ -37,7 +37,7 @@
 			    });
 
 			    function tick() {
-			      loadingMessage.innerText = "⌛ Loading video..."
+			      loadingMessage.innerText = "⌛ Cargando video..."
 			      if (video.readyState === video.HAVE_ENOUGH_DATA) {
 			        loadingMessage.hidden = true;
 			        canvasElement.hidden = false;

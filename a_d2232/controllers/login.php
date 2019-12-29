@@ -7,6 +7,7 @@ class Login extends CI_Controller {
         parent::__construct();
         $this->load->model('m_usuario');
         $this->load->model('m_usuario_tipo');
+        $this->load->model('m_profesores');
         $this->load->library('password');
     }
     
@@ -20,9 +21,12 @@ class Login extends CI_Controller {
                 'id' => $usuario->id,
                 'logged_in' => TRUE,
                 'ciudad' => $usuario->ciudad,
-                'UsuarioTipo_id' => $usuario->UsuarioTipo_id,
-                'Empresa_id' => $usuario->Empresa_id  
+                'UsuarioTipo_id' => $usuario->UsuarioTipo_id
             );
+            if($sesion['UsuarioTipo_id']==5){
+                $profesor = $this->m_profesores->getsalon($usuario);
+                $sesion['salon'] = $profesor->salon;
+            }
             $this->session->set_userdata($sesion);
         }
     }
@@ -60,7 +64,7 @@ class Login extends CI_Controller {
                 
             } else {
                 
-                $data['page_title'] = 'Entrar - Licipsa';
+                $data['page_title'] = 'Entrar - IET';
                 $this->load->view('v_login', $data);
                 
             }

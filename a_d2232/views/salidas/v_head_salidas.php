@@ -50,11 +50,7 @@
 
             <div class="row">
                 <ul class="nav nav-tabs">
-                    <li role="presentation" class="menu-admin"><?php echo anchor('admin/administracion', 'Admin', array('class'=>'block left menu-admin')); ?></li>
-                    <li role="presentation" class="menu-salones"><?php echo anchor('admin/salones', 'Salones', array('class'=>'block left menu-usuarios')); ?></li>
-                    <li role="presentation" class="menu-usuarios"><?php echo anchor('admin/usuarios', 'Usuarios', array('class'=>'block left menu-usuarios')); ?></li>
-                    <li role="presentation" class="menu-alumnos"><?php echo anchor('admin/alumnos', 'Alumnos', array('class'=>'block left menu-usuarios')); ?></li>
-                    <li role="presentation" class="menu-salidas"><?php echo anchor('admin/salidas', 'Salidas', array('class'=>'block left menu-usuarios')); ?></li>
-                    <li role="presentation" class="pull-right"><?php echo anchor('login/logout', 'Cerrar Sesi&oacute;n ['.$usuario->login.']', array('class'=>'action_logout label label-danger')); ?></li>
+                  <li role="presentation" class="menu-salidas"><?php //echo anchor('salidas/salidas', 'Salidas', array('class'=>'block left menu-alumnos')); ?></li>
+                  <li role="presentation" class="pull-right"><?php echo anchor('login/logout', 'Cerrar Sesi&oacute;n ['.$usuario->login.']', array('class'=>'action_logout label label-danger')); ?></li>
                 </ul>
             </div><!--row-->
