@@ -1,10 +1,10 @@
 <div class="row">
 	<div class="col-md-6">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script>
           jsQR(...);
         </script>
-          	<h1>jsQR Demo</h1>
-		  	<div id="loadingMessage">🎥 Unable to access video stream (please make sure you have a webcam enabled)</div>
+		  	<div id="loadingMessage">🎥 No se puede acceder a la transmisión de video (asegúrese de tener una cámara web habilitada)</div>
 		  	<canvas id="canvas" hidden></canvas>
 		  	<div id="output" hidden>
 		    	<div id="outputMessage">No se detecta codigo QR.</div>
