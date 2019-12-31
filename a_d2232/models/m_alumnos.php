@@ -39,4 +39,28 @@ class M_alumnos extends CI_Model{
 
         return $alumnos;
     }
+
+    public function buscarqr1($qr)
+    {
+        $q = $this->db->get_where('alumnos', array('qr1' => $qr));
+        //$q = $this->db->or_where('qr2' , $qr);
+        //$q = $this->db->or_where('qr3' , $qr);
+        return $q->row();
+    }
+
+    public function buscarqr2($qr)
+    {
+        $q = $this->db->get_where('alumnos', array('qr2' => $qr));
+        //$q = $this->db->or_where('qr2' , $qr);
+        //$q = $this->db->or_where('qr3' , $qr);
+        return $q->row();
+    }
+
+    public function buscarqr3($qr)
+    {
+        $q = $this->db->get_where('alumnos', array('qr3' => $qr));
+        //$q = $this->db->or_where('qr2' , $qr);
+        //$q = $this->db->or_where('qr3' , $qr);
+        return $q->row();
+    }
 }

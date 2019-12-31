@@ -1,9 +1,9 @@
 <div class="row">
 	<div class="col-md-6">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script>
           jsQR(...);
         </script>
-          	<h1>jsQR Demo</h1>
 		  	<div id="loadingMessage">🎥 No se puede acceder a la transmisión de video (asegúrese de tener una cámara web habilitada)</div>
 		  	<canvas id="canvas" hidden></canvas>
 		  	<div id="output" hidden>
@@ -58,7 +58,20 @@
 			          outputMessage.hidden = true;
 			          outputData.parentElement.hidden = false;
 			          outputData.innerText = code.data;
-			          alert(code.data);
+
+			          $.ajax({
+			                url: 'salidas/nueva',
+			                type: 'POST',
+			                data: { 'qr' : code.data }
+			           }).done(function(data, textStatus, jqXHR){
+			           	
+			           	var alumno = JSON.parse(data);
+			           	console.log(alumno);
+
+			           }).fail(function(jqXHR, textStatus, error){
+			            console.log("Entro al fail");
+			            alert("Sucedió un error. Intente de nuevo.");
+			           });
 			          
 			        } else {
 			          outputMessage.hidden = false;
