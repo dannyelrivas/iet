@@ -6,5 +6,11 @@ class M_salidas extends CI_Model{
 	{
 		$q = $this->db->get_where( 'salida', array('salon' => $salon) );
         return $q->result();
-	}	
+	}
+
+	public function nueva($salida)
+	{
+		$this->db->insert('salida', $salida);
+        return $this->db->insert_id();
+	}
 }

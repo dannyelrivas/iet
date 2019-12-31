@@ -28,6 +28,9 @@ class Salidas extends CI_Controller {
     public function nueva ()
     {
         $data = $_POST;
+        $salida = array();
+        $salida['hora'] = date('Y/m/d H:i:s');
+        $salida['id'] = null;
 
         $alumno_salida = $this->m_alumnos->buscarqr1($data['qr']);
 
@@ -43,19 +46,35 @@ class Salidas extends CI_Controller {
                 {
                     echo json_encode("No se encontró el alumno.");
                 }
+                else //Encontró el qr3
+                {
+                    $salida['recoge'] = $alumno_salida->pt3;
+                    $salida['id_alumno'] = $alumno_salida->codigoalumno;
+                    $salida['salon'] = $alumno_salida->salon;
+
+                    $salida_nueva = $this->m_salidas->nueva($salida);
+                    echo json_encode($salida_nueva);
+                }
             }
-            else
+            else //Encontró el qr2
             {
-                echo json_encode($alumno_salida);
+                $salida['recoge'] = $alumno_salida->pt2;
+                $salida['id_alumno'] = $alumno_salida->codigoalumno;
+                $salida['salon'] = $alumno_salida->salon;
+
+                $salida_nueva = $this->m_salidas->nueva($salida);
+                echo json_encode($salida_nueva);
             }
         }
-        else
+        else //Encontró el qr1
         {
-            $salida = {
-                //Aqui va el desmadre ya que esté la BD
-            };
-            $this->m_salidas->add($salida);
-            echo json_encode($alumno_salida);
+            $salida['recoge'] = $alumno_salida->pt1;
+            $salida['id_alumno'] = $alumno_salida->codigoalumno;
+            $salida['salon'] = $alumno_salida->salon;
+
+            $salida_nueva = $this->m_salidas->nueva($salida);
+            //print_r($salida);
+            echo json_encode($salida_nueva);
         }
     }
     

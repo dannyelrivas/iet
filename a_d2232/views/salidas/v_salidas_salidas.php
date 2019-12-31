@@ -59,13 +59,16 @@
 			          outputData.parentElement.hidden = false;
 			          outputData.innerText = code.data;
 
+			          var WDIR = 'licipsa/'; //Change to '' if is on root
+    				  var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;
+
 			          $.ajax({
-			                url: 'salidas/nueva',
+			                url: WROOT +'salidas/nueva',
 			                type: 'POST',
 			                data: { 'qr' : code.data }
 			           }).done(function(data, textStatus, jqXHR){
 			           	
-			           	var alumno = JSON.parse(data);
+			           	var alumno = data;
 			           	console.log(alumno);
 
 			           }).fail(function(jqXHR, textStatus, error){
