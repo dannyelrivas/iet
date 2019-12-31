@@ -24,7 +24,7 @@ class Login extends CI_Controller {
                 'UsuarioTipo_id' => $usuario->UsuarioTipo_id
             );
             if($sesion['UsuarioTipo_id']==5){
-                $profesor = $this->m_profesores->getsalon($usuario);
+                $profesor = $this->m_profesores->getsalon($usuario->login);
                 $sesion['salon'] = $profesor->salon;
             }
             $this->session->set_userdata($sesion);

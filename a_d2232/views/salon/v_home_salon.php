@@ -3,14 +3,16 @@
     <div class="col-sm-9">
       <div class="row">
         <?php
-         $array_salidas = json_decode($salidas[0], true);
-         print_r($array_salidas);
-         for ($i=0; $i < count($array_salidas) ; $i++) { 
+         for ($i=0; $i < count($salidas) ; $i++) { 
            echo "
-           <div class=\"col-sm-4\">
-             alumno: " . $salidas[$i]->nombre . " " . $salidas[$i]->apaterno . " " .$salidas[$i]->amaterno."
-             recoge: " . $salidas[$i]->recoge .
-             "<a class=\"btn\">Dar salida</a></div>";
+            <div class=\"col-sm-4\">
+              <div class=\"panel panel-default\">
+                <div class=\"panel-body\">
+                  <h4>Alumno: </h4>" . $salidas[$i]->nombre . " " . $salidas[$i]->apaterno . " " .$salidas[$i]->amaterno.
+                  "<br><h4>Recoge: </h4>" . $salidas[$i]->recoge ."<br><a class=\"btn btn-primary pull-right\">Dar salida</a>
+                </div>
+              </div>
+            </div>";
         }
         
         ?>
@@ -22,7 +24,7 @@
     <div class="col-sm-3">
 
         <h3>Ultimas Salidas</h3>
-
+    </div>
         <hr />
     </div><!--.col-->
 </div><!--.row-->

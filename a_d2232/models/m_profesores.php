@@ -3,7 +3,7 @@
 class M_profesores extends CI_Model{
 	public function getsalon($login)
 	{
-		$q = $this->db->get_where( 'profesor', array('login' => "profesor") );
+		$q = $this->db->get_where( 'profesor', array('login' => $login) );
         return $q->row();
 	}	
 }
