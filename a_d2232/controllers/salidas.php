@@ -52,7 +52,9 @@ class Salidas extends CI_Controller {
                     $salida['idalumno'] = $alumno_salida->codigoalumno;
                     $salida['salon'] = $alumno_salida->salon;
 
-                    $salida_nueva = $this->m_salidas->nueva($salida);
+                    $salida_nueva_id = $this->m_salidas->nueva($salida);
+                    $salida_nueva = $this->m_salidas->get($salida_nueva_id);
+                    $salida_nueva->alumno = $alumno_salida;
                     echo json_encode($salida_nueva);
                 }
             }
@@ -62,7 +64,9 @@ class Salidas extends CI_Controller {
                 $salida['idalumno'] = $alumno_salida->codigoalumno;
                 $salida['salon'] = $alumno_salida->salon;
 
-                $salida_nueva = $this->m_salidas->nueva($salida);
+                $salida_nueva_id = $this->m_salidas->nueva($salida);
+                $salida_nueva = $this->m_salidas->get($salida_nueva_id);
+                $salida_nueva->alumno = $alumno_salida;
                 echo json_encode($salida_nueva);
             }
         }
@@ -72,8 +76,9 @@ class Salidas extends CI_Controller {
             $salida['idalumno'] = $alumno_salida->codigoalumno;
             $salida['salon'] = $alumno_salida->salon;
 
-            $salida_nueva = $this->m_salidas->nueva($salida);
-            //print_r($salida);
+            $salida_nueva_id = $this->m_salidas->nueva($salida);
+            $salida_nueva = $this->m_salidas->get($salida_nueva_id);
+            $salida_nueva->alumno = $alumno_salida;
             echo json_encode($salida_nueva);
         }
     }

@@ -67,9 +67,10 @@
 			                type: 'POST',
 			                data: { 'qr' : code.data }
 			           }).done(function(data, textStatus, jqXHR){
+
+			           	var salida = JSON.parse(data);
 			           	
-			           	var alumno = data;
-			           	console.log(alumno);
+			           	alert("Se creaó la salida para el alumno: " + salida.alumno.nombre + " " + salida.alumno.apaterno + " " + salida.alumno.amaterno);
 
 			           }).fail(function(jqXHR, textStatus, error){
 			            console.log("Entro al fail");

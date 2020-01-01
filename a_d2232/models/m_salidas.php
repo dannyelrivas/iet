@@ -8,6 +8,12 @@ class M_salidas extends CI_Model{
         return $q->result();
 	}
 
+	public function get($id)
+	{
+		$q = $this->db->get_where( 'salida', array('id' => $id) );
+		return $q->row(); 
+	}
+
 	public function nueva($salida)
 	{
 		$this->db->insert('salida', $salida);
