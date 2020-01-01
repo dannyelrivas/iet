@@ -30,7 +30,7 @@ class Salidas extends CI_Controller {
         $data = $_POST;
         $salida = array();
         $salida['hora'] = date('Y/m/d H:i:s');
-        $salida['id'] = null;
+        //$salida['id'] = null;
 
         $alumno_salida = $this->m_alumnos->buscarqr1($data['qr']);
 
@@ -49,7 +49,7 @@ class Salidas extends CI_Controller {
                 else //Encontró el qr3
                 {
                     $salida['recoge'] = $alumno_salida->pt3;
-                    $salida['id_alumno'] = $alumno_salida->codigoalumno;
+                    $salida['idalumno'] = $alumno_salida->codigoalumno;
                     $salida['salon'] = $alumno_salida->salon;
 
                     $salida_nueva = $this->m_salidas->nueva($salida);
@@ -59,7 +59,7 @@ class Salidas extends CI_Controller {
             else //Encontró el qr2
             {
                 $salida['recoge'] = $alumno_salida->pt2;
-                $salida['id_alumno'] = $alumno_salida->codigoalumno;
+                $salida['idalumno'] = $alumno_salida->codigoalumno;
                 $salida['salon'] = $alumno_salida->salon;
 
                 $salida_nueva = $this->m_salidas->nueva($salida);
@@ -69,7 +69,7 @@ class Salidas extends CI_Controller {
         else //Encontró el qr1
         {
             $salida['recoge'] = $alumno_salida->pt1;
-            $salida['id_alumno'] = $alumno_salida->codigoalumno;
+            $salida['idalumno'] = $alumno_salida->codigoalumno;
             $salida['salon'] = $alumno_salida->salon;
 
             $salida_nueva = $this->m_salidas->nueva($salida);
