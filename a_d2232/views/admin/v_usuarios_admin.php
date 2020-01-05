@@ -87,7 +87,7 @@
         <?php endforeach; ?>
 
         <br />
-        <h4>Colaboradores</h4>
+        <!<h4>Profesores</h4>
         <?php foreach($colabs as $i): ?>
             <div class="well well-sm well-lista">
                 <?php echo anchor("", $i->nombre." ".$i->apellidoPaterno." ".$i->apellidoMaterno, array("usuario_id"=>$i->id, "class"=>"item_usuario" )); ?>

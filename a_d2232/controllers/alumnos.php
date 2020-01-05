@@ -59,5 +59,14 @@
         	$alumno = $this->m_alumnos->buscar($data['codigo']);
         	echo json_encode($alumno);
         }
+
+        public function salida()
+        {
+            $data = $_POST;
+            alert($data);
+            unset($data['guardar']);
+            //$data['alumno_salida'] = $this->m_alumnos->salida( $data, $data['id'] );
+            //redirect('salon', 'refresh');
+        }
     }
 

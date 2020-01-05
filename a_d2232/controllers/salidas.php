@@ -30,7 +30,7 @@ class Salidas extends CI_Controller {
         $data = $_POST;
         $salida = array();
         $salida['hora'] = date('Y/m/d H:i:s');
-        //$salida['id'] = null;
+        $salida['status'] = 0;
 
         $alumno_salida = $this->m_alumnos->buscarqr1($data['qr']);
 

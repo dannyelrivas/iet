@@ -59,8 +59,10 @@
 			          outputData.parentElement.hidden = false;
 			          outputData.innerText = code.data;
 
-			          var WDIR = 'licipsa/'; //Change to '' if is on root
+			          //var WDIR = 'licipsa/'; //Change to '' if is on root
+    				  var WDIR = 'iet/index.php/';
     				  var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;
+    				  alert(WROOT);
 
 			          $.ajax({
 			                url: WROOT +'salidas/nueva',
@@ -70,7 +72,7 @@
 
 			           	var salida = JSON.parse(data);
 			           	
-			           	alert("Se creaó la salida para el alumno: " + salida.alumno.nombre + " " + salida.alumno.apaterno + " " + salida.alumno.amaterno);
+			           	alert("Se creó la salida para el alumno: " + salida.alumno.nombre + " " + salida.alumno.apaterno + " " + salida.alumno.amaterno);
 
 			           }).fail(function(jqXHR, textStatus, error){
 			            console.log("Entro al fail");

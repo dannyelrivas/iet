@@ -12,6 +12,11 @@ class M_alumnos extends CI_Model{
     {
         $this->db->update( 'alumnos', $data, array('id'=>$id) );
     }
+
+    public function salida($data, $id)
+    {
+        $this->db->update( 'salida', $data, array('idalumno'=>$id) );
+    }
     
     public function del($id)
     {
