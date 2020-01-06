@@ -62,7 +62,8 @@
 			          video.pause();
 					  video.src="";
 
-			          var WDIR = 'licipsa/'; //Change to '' if is on root
+			          //var WDIR = 'licipsa/'; //Change to '' if is on root
+			          var WDIR = 'iet/index.php/'; //Change to '' if is on root
     				  var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;
 
 			          $.ajax({
@@ -76,10 +77,12 @@
 			           	if(salida === "Ya existe una salida para ese alumno.")
 			           	{
 			           		alert(salida);
+			           		location.reload();
 			           	}
 			           	else
 			           	{
-			           		alert("Se creaó la salida para el alumno: " + salida.alumno.nombre + " " + salida.alumno.apaterno + " " + salida.alumno.amaterno);
+			           		alert("Se creó la salida para el alumno: " + salida.alumno.nombre + " " + salida.alumno.apaterno + " " + salida.alumno.amaterno);
+			           		location.reload();
 			           	}
 
 			           }).fail(function(jqXHR, textStatus, error){

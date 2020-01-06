@@ -22,7 +22,8 @@ class M_salidas extends CI_Model{
 
 	public function existe($idalumno)
 	{
-		$q = $this->db->get_where('salida', (array('idalumno' => $idalumno)));
+		//$q = $this->db->get_where('salida', (array('idalumno' => $idalumno)));
+		$q = $this->db->get_where('salida', (array('idalumno' => $idalumno,'status'=>null)));
 		return $q->row();
 	}
 
