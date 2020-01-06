@@ -8,7 +8,7 @@
 		  	<canvas id="canvas" hidden></canvas>
 		  	<div id="output" hidden>
 		    	<div id="outputMessage">No se detecta codigo QR.</div>
-		    	<div hidden><b>Data:</b> <span id="outputData"></span></div>
+		    	<div hidden><b>QR:</b> <span id="outputData"></span></div>
 		  	</div>
 		  	<script>
 			    var video = document.createElement("video");
@@ -59,10 +59,11 @@
 			          outputData.parentElement.hidden = false;
 			          outputData.innerText = code.data;
 
-			          //var WDIR = 'licipsa/'; //Change to '' if is on root
-    				  var WDIR = 'iet/index.php/';
+			          video.pause();
+					  video.src="";
+
+			          var WDIR = 'licipsa/'; //Change to '' if is on root
     				  var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;
-    				  alert(WROOT);
 
 			          $.ajax({
 			                url: WROOT +'salidas/nueva',
@@ -71,8 +72,15 @@
 			           }).done(function(data, textStatus, jqXHR){
 
 			           	var salida = JSON.parse(data);
-			           	
-			           	alert("Se creó la salida para el alumno: " + salida.alumno.nombre + " " + salida.alumno.apaterno + " " + salida.alumno.amaterno);
+
+			           	if(salida === "Ya existe una salida para ese alumno.")
+			           	{
+			           		alert(salida);
+			           	}
+			           	else
+			           	{
+			           		alert("Se creaó la salida para el alumno: " + salida.alumno.nombre + " " + salida.alumno.apaterno + " " + salida.alumno.amaterno);
+			           	}
 
 			           }).fail(function(jqXHR, textStatus, error){
 			            console.log("Entro al fail");

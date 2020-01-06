@@ -31,8 +31,8 @@
 
             //Tipos de usuario
             $tipo_admin = $this->m_usuario_tipo->get_by_tipo('ADMIN');
-            $tipo_colab = $this->m_usuario_tipo->get_by_tipo('SALON');
-            $tipo_control_escolar = $this->m_usuario_tipo->get_by_tipo('SALIDAS');
+            $tipo_colab = $this->m_usuario_tipo->get_by_tipo('COLABORADOR');
+            $tipo_control_escolar = $this->m_usuario_tipo->get_by_tipo('CONTROL ESCOLAR');
 
             //Administradores
             $data['admins'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_admin->id);

@@ -19,4 +19,10 @@ class M_salidas extends CI_Model{
 		$this->db->insert('salida', $salida);
         return $this->db->insert_id();
 	}
+
+	public function existe($idalumno)
+	{
+		$q = $this->db->get_where('salida', (array('idalumno' => $idalumno)));
+		return $q->row();
+	}
 }

@@ -12,11 +12,6 @@ class M_alumnos extends CI_Model{
     {
         $this->db->update( 'alumnos', $data, array('id'=>$id) );
     }
-
-    public function salida($data, $id)
-    {
-        $this->db->update( 'salida', $data, array('idalumno'=>$id) );
-    }
     
     public function del($id)
     {
@@ -48,24 +43,18 @@ class M_alumnos extends CI_Model{
     public function buscarqr1($qr)
     {
         $q = $this->db->get_where('alumnos', array('qr1' => $qr));
-        //$q = $this->db->or_where('qr2' , $qr);
-        //$q = $this->db->or_where('qr3' , $qr);
         return $q->row();
     }
 
     public function buscarqr2($qr)
     {
         $q = $this->db->get_where('alumnos', array('qr2' => $qr));
-        //$q = $this->db->or_where('qr2' , $qr);
-        //$q = $this->db->or_where('qr3' , $qr);
         return $q->row();
     }
 
     public function buscarqr3($qr)
     {
         $q = $this->db->get_where('alumnos', array('qr3' => $qr));
-        //$q = $this->db->or_where('qr2' , $qr);
-        //$q = $this->db->or_where('qr3' , $qr);
         return $q->row();
     }
 }

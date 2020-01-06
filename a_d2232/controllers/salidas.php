@@ -30,7 +30,6 @@ class Salidas extends CI_Controller {
         $data = $_POST;
         $salida = array();
         $salida['hora'] = date('Y/m/d H:i:s');
-        $salida['status'] = 0;
 
         $alumno_salida = $this->m_alumnos->buscarqr1($data['qr']);
 
@@ -48,7 +47,30 @@ class Salidas extends CI_Controller {
                 }
                 else //Encontró el qr3
                 {
-                    $salida['recoge'] = $alumno_salida->pt3;
+                    $salida_null = $this->m_salidas->existe($alumno_salida->codigoalumno);
+                    if(empty($salida_null))
+                    {
+                        $salida['recoge'] = $alumno_salida->pt3;
+                        $salida['idalumno'] = $alumno_salida->codigoalumno;
+                        $salida['salon'] = $alumno_salida->salon;
+
+                        $salida_nueva_id = $this->m_salidas->nueva($salida);
+                        $salida_nueva = $this->m_salidas->get($salida_nueva_id);
+                        $salida_nueva->alumno = $alumno_salida;
+                        echo json_encode($salida_nueva);
+                    }
+                    else
+                    {
+                        echo json_encode("Ya existe una salida para ese alumno.");
+                    }
+                }
+            }
+            else //Encontró el qr2
+            {
+                $salida_null = $this->m_salidas->existe($alumno_salida->codigoalumno);
+                if(empty($salida_null))
+                {
+                    $salida['recoge'] = $alumno_salida->pt2;
                     $salida['idalumno'] = $alumno_salida->codigoalumno;
                     $salida['salon'] = $alumno_salida->salon;
 
@@ -57,10 +79,18 @@ class Salidas extends CI_Controller {
                     $salida_nueva->alumno = $alumno_salida;
                     echo json_encode($salida_nueva);
                 }
+                else
+                {
+                    echo json_encode("Ya existe una salida para ese alumno.");
+                }
             }
-            else //Encontró el qr2
+        }
+        else //Encontró el qr1
+        {
+            $salida_null = $this->m_salidas->existe($alumno_salida->codigoalumno);
+            if(empty($salida_null))
             {
-                $salida['recoge'] = $alumno_salida->pt2;
+                $salida['recoge'] = $alumno_salida->pt1;
                 $salida['idalumno'] = $alumno_salida->codigoalumno;
                 $salida['salon'] = $alumno_salida->salon;
 
@@ -69,17 +99,10 @@ class Salidas extends CI_Controller {
                 $salida_nueva->alumno = $alumno_salida;
                 echo json_encode($salida_nueva);
             }
-        }
-        else //Encontró el qr1
-        {
-            $salida['recoge'] = $alumno_salida->pt1;
-            $salida['idalumno'] = $alumno_salida->codigoalumno;
-            $salida['salon'] = $alumno_salida->salon;
-
-            $salida_nueva_id = $this->m_salidas->nueva($salida);
-            $salida_nueva = $this->m_salidas->get($salida_nueva_id);
-            $salida_nueva->alumno = $alumno_salida;
-            echo json_encode($salida_nueva);
+            else
+            {
+                echo json_encode("Ya existe una salida para ese alumno.");
+            }
         }
     }
     
