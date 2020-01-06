@@ -4,7 +4,7 @@ class M_salidas extends CI_Model{
 	
 	public function todas_salidas($salon)
 	{
-		$q = $this->db->get_where( 'salida', array('salon' => $salon) );
+		$q = $this->db->get_where( 'salida', array('salon' => $salon, 'status' => null) );
         return $q->result();
 	}
 
@@ -24,5 +24,11 @@ class M_salidas extends CI_Model{
 	{
 		$q = $this->db->get_where('salida', (array('idalumno' => $idalumno)));
 		return $q->row();
+	}
+
+	public function dar_salida($id)
+	{
+		$this->db->update( 'salida', array('status' => true), array('id'=>$id) );
+		return $this->db->affected_rows();	
 	}
 }

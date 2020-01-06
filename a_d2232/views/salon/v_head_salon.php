@@ -33,6 +33,51 @@
         <script src="<?php echo base_url(); ?>custom/js/cliente_jqgrid.js" type="text/javascript"></script>
         <script src="<?php echo base_url(); ?>custom/js/cliente_autocomplete.js" type="text/javascript"></script>
         <script src="<?php echo base_url(); ?>custom/js/cliente.js" type="text/javascript"></script>
+        <script>
+          jQuery(document).ready(function($){
+
+            $('.dar_salida').click(function(e){
+              console.log("Lo que sea");
+                e.preventDefault();
+
+                var id = $(this).attr('id_salida');
+
+                var parent = $(this).parent('div');
+                var div = $('<div>Está seguro que desea dar salida al alumno?</div>');
+                div.dialog({
+                  title: "Confirmacion",
+                  buttons: [
+                        {
+                          text: "Si",
+                          click: function () {
+
+
+                            $.ajax({
+                              url: 'salon/dar_salida',
+                              type: 'POST',
+                              data: { 'id':id }
+                            }).done(function(data, textStatus, jqXHR){
+                                if(data)
+                                {
+                                    alert("El alumno puede salir.");
+                                }
+                                parent.fadeOut();
+                                div.dialog("close");
+                            });
+                          }
+                        },
+                        {
+                          text: "No",
+                          click: function () {
+                            div.dialog("close");
+                          }
+                        }
+                      ]
+                });
+
+             });
+          });
+        </script>
     </head>
     <body>
 

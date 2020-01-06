@@ -37,4 +37,10 @@ class Salon extends CI_Controller {
         $this->load->view('salon/v_foot_salon');
     }
     
+    public function dar_salida()
+    {
+        $id = $_POST['id'];
+        $affected_rows = $this->m_salidas->dar_salida($id);
+        echo $affected_rows;
+    }
 }
