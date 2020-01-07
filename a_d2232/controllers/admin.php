@@ -149,7 +149,7 @@
 
             }
 
-            $data['dropdown_empresas'] = $this->formulario->dropdown_gen('m_empresa', 'id', 'nombre');
+            $data['dropdown_empresas'] = $this->formulario->dropdown_gen('m_salidas', 'salon', 'salon');
             $data['usuario'] = $this->usuario;
             $data['reportes'] = $reportes;
 

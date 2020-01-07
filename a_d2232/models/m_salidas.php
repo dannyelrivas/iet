@@ -32,4 +32,12 @@ class M_salidas extends CI_Model{
 		$this->db->update( 'salida', array('status' => true), array('id'=>$id) );
 		return $this->db->affected_rows();	
 	}
+	public function getAll()
+    {
+        $q = $this->db->order_by( 'salon', 'asc' );
+        $q = $this->db->distinct();
+        $q = $this->db->get( 'salida' );
+
+        return $q->result();
+    }
 }

@@ -11,11 +11,11 @@
             <div class="form-group row">
 
                 <div class="col-sm-2">
-                    <?php echo form_label("Empresa:").form_dropdown('empresa_fil', $dropdown_empresas, '', 'class="form-control"'); ?>
+                    <?php echo form_label("Salón:").form_dropdown('empresa_fil', $dropdown_empresas, '', 'class="form-control"'); ?>
                 </div>
 
                 <div class="col-sm-2">
-                    <?php echo form_label("CEDIS:").form_input( array('name'=>'sucursal_fil', 'id'=>'txt_reportes_sucursal', "class"=>'form-control') ); ?>
+                    <?php echo form_label("ID alumno:").form_input( array('name'=>'sucursal_fil', 'id'=>'txt_reportes_sucursal', "class"=>'form-control') ); ?>
                 </div>
 
                 <div class="col-sm-4">
