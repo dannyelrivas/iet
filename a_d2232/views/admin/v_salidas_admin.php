@@ -3,7 +3,7 @@
 		<script>
           jsQR(...);
         </script>
-          	<h1>jsQR Demo</h1>
+          	<h1></h1>
 		  	<div id="loadingMessage">🎥 Unable to access video stream (please make sure you have a webcam enabled)</div>
 		  	<canvas id="canvas" hidden></canvas>
 		  	<div id="output" hidden>
@@ -68,5 +68,14 @@
 			      requestAnimationFrame(tick);
 			    }
 		  	</script>
+		  	<script>
+
+    jQuery(document).ready(function($){
+
+        $('.menu-salidas').addClass('active');
+
+    });
+
+</script>
 	</div>
 </div>

@@ -98,7 +98,7 @@
 
     jQuery(document).ready(function($){
 
-        $('.menu-usuarios').addClass('active');
+        $('.menu-alumnos').addClass('active');
 
     });
 

@@ -2,8 +2,8 @@
  * Archivo de configuracion y funciones de proposito general
  *
  */
-
-var WDIR = 'licipsa/'; //Change to '' if is on root
+var WDIR = 'iet/index.php/';
+//var WDIR = 'licipsa/'; //Change to '' if is on root
 var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;
 
 function inputVal(form_id, campo)

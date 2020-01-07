@@ -50,7 +50,7 @@
 
             <div class="row">
                 <ul class="nav nav-tabs">
-                    <li role="presentation" class="menu-admin"><?php echo anchor('admin/reportes', 'Reportes', array('class'=>'block left menu-admin')); ?></li>
+                    <li role="presentation" class="menu-reportes"><?php echo anchor('admin/reportes', 'Reportes', array('class'=>'block left menu-admin')); ?></li>
                     <li role="presentation" class="menu-usuarios"><?php echo anchor('admin/usuarios', 'Usuarios', array('class'=>'block left menu-usuarios')); ?></li>
                     <li role="presentation" class="menu-alumnos"><?php echo anchor('admin/alumnos', 'Alumnos', array('class'=>'block left menu-usuarios')); ?></li>
                     <li role="presentation" class="menu-salidas"><?php echo anchor('admin/salidas', 'Salidas', array('class'=>'block left menu-usuarios')); ?></li>
