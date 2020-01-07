@@ -73,6 +73,12 @@ jQuery(document).ready(function($){
                   $('#grupo_alumno').val(alumno.grupo);
                   $('#salon_alumno').val(alumno.salon);
                   $('#id_alumno').val(alumno.id);
+                  $('#pt1').val(alumno.pt1);
+                  $('#qr1').val(alumno.qr1);
+                  $('#pt2').val(alumno.pt2);
+                  $('#qr2').val(alumno.qr2);
+                  $('#pt3').val(alumno.pt3);
+                  $('#qr3').val(alumno.qr3);
                 }
                 
            }).fail(function(jqXHR, textStatus, error){
