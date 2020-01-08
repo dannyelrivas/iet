@@ -93,12 +93,12 @@
         <div class="form-group row">
             <div class="col-xs-4">
                 <meta charset="UTF-8">
-                <link rel='stylesheet' href='http://iet.edufy.com.mx/qr/style.css' type='text/css'>
+                <link rel='stylesheet' href='https://iet.edufy.com.mx/qr/style.css' type='text/css'>
                 <!--<button id="generarCodigo">Generar QR</button>--><a href="#" id="descargarCodigo">Descargar</a>
                 <div id="codigoQR"></div>
-                <script src="http://iet.edufy.com.mx/qr/jquery.min.js"></script>
-                <script src="http://iet.edufy.com.mx/qr/qrcode.js"></script>
-                <script src="http://iet.edufy.com.mx/qr/main.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/jquery.min.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/qrcode.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/main.js"></script>
                 <script type="text/javascript">
 
                 var miCodigoQR = new QRCode("codigoQR");
@@ -123,12 +123,12 @@
             </div>
             <div class="col-xs-4">
                 <meta charset="UTF-8">
-                <link rel='stylesheet' href='http://iet.edufy.com.mx/qr/style.css' type='text/css'>
+                <link rel='stylesheet' href='https://iet.edufy.com.mx/qr/style.css' type='text/css'>
                 <!--<button id="generarCodigo">Generar QR</button>--><a href="#" id="descargarCodigo2">Descargar</a>
                 <div id="codigoQR2"></div>
-                <script src="http://iet.edufy.com.mx/qr/jquery.min.js"></script>
-                <script src="http://iet.edufy.com.mx/qr/qrcode.js"></script>
-                <script src="http://iet.edufy.com.mx/qr/main.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/jquery.min.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/qrcode.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/main.js"></script>
                 <script type="text/javascript">
 
                 var miCodigoQR2 = new QRCode("codigoQR2");
@@ -153,12 +153,12 @@
             </div>
             <div class="col-xs-3">
                 <meta charset="UTF-8">
-                <link rel='stylesheet' href='http://iet.edufy.com.mx/qr/style.css' type='text/css'>
+                <link rel='stylesheet' href='https://iet.edufy.com.mx/qr/style.css' type='text/css'>
                 <!--<button id="generarCodigo">Generar QR</button>--><a href="#" id="descargarCodigo3">Descargar</a>
                 <div id="codigoQR3"></div>
-                <script src="http://iet.edufy.com.mx/qr/jquery.min.js"></script>
-                <script src="http://iet.edufy.com.mx/qr/qrcode.js"></script>
-                <script src="http://iet.edufy.com.mx/qr/main.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/jquery.min.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/qrcode.js"></script>
+                <script src="https://iet.edufy.com.mx/qr/main.js"></script>
                 <script type="text/javascript">
 
                 var miCodigoQR3 = new QRCode("codigoQR3");
