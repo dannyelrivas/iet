@@ -87,6 +87,7 @@
 
             $this->load->view('admin/v_head_admin', $data);
             $this->load->view('alumnos/v_alumnos');
+            $this->load->view('admin/v_foot_admin');
         }
 
         /*
