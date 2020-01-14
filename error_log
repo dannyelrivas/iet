@@ -775,3 +775,15 @@ Stack trace:
 #8 /home1/edufycom/test.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
 #9 {main}
   thrown in /home1/edufycom/test.edufy.com.mx/s_s2698/database/drivers/mysql/mysql_driver.php on line 91
+[07-Jan-2020 23:02:17 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home1/edufycom/iet.edufy.com.mx/a_d2232/controllers/admin.php:145
+Stack trace:
+#0 /home1/edufycom/iet.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Admin->reportes()
+#1 /home1/edufycom/iet.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#2 {main}
+  thrown in /home1/edufycom/iet.edufy.com.mx/a_d2232/controllers/admin.php on line 145
+[07-Jan-2020 23:03:50 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function get_for_reportes() on null in /home1/edufycom/iet.edufy.com.mx/a_d2232/controllers/admin.php:148
+Stack trace:
+#0 /home1/edufycom/iet.edufy.com.mx/s_s2698/core/CodeIgniter.php(359): Admin->reportes()
+#1 /home1/edufycom/iet.edufy.com.mx/index.php(202): require_once('/home1/edufycom...')
+#2 {main}
+  thrown in /home1/edufycom/iet.edufy.com.mx/a_d2232/controllers/admin.php on line 148

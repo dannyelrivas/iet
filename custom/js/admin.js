@@ -40,8 +40,8 @@ jQuery(document).ready(function($){
    $('#buscaralumno').click(function(e){
     e.preventDefault();
      //var WDIR = 'licipsa/'; //comentar antes de subir a prod
-    var WDIR = 'iet/index.php/'; //comentar antes de subir a prod
-    var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;//comentar antes de subir a prod
+    //var WDIR = 'iet/index.php/'; //comentar antes de subir a prod
+    //var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;//comentar antes de subir a prod
 
     var codigo_alumno = $('#alumno_txt').val();
     var url_buscar = WROOT+'alumnos/buscar';

@@ -7,20 +7,20 @@ class M_usuario_tipo extends CI_Model{
      */
     function get($id)
     {
-        $q = $this->db->get_where('UsuarioTipo', array('id' => $id));
+        $q = $this->db->get_where('usuariotipo', array('id' => $id));
         return $q->row();
     }
     
     function getAll()
     {
         $q = $this->db->order_by('id', 'asc');
-        $q = $this->db->get('UsuarioTipo');
+        $q = $this->db->get('usuariotipo');
         return $q->result();
     }
     
     function get_by_tipo( $tipo )
     {
-        $q = $this->db->get_where('UsuarioTipo', array('tipo' => $tipo));
+        $q = $this->db->get_where('usuariotipo', array('tipo' => $tipo));
         return $q->row();
     }
     

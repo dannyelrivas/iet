@@ -5,37 +5,37 @@ class M_usuario extends CI_Model{
     //funcion que devuelve los datos de un usuario si este esta en la BD.
     function getUsuario($login, $pwd)
     {
-        $q = $this->db->get_where('Usuario', array('login' => $login, 'password' => $pwd));
+        $q = $this->db->get_where('usuario', array('login' => $login, 'password' => $pwd));
         return $q->row();
     }
     
     function get($id)
     {
-        $q = $this->db->get_where( 'Usuario', array('id' => $id) );
+        $q = $this->db->get_where( 'usuario', array('id' => $id) );
         return $q->row();
     }
     
     function add( $usuario )
     {
-        $this->db->insert('Usuario', $usuario); 
+        $this->db->insert('usuario', $usuario); 
         return $this->db->insert_id();
     }
     
     public function update($data, $id)
     {
-        $this->db->update( 'Usuario', $data, array('id'=>$id) );
+        $this->db->update( 'usuario', $data, array('id'=>$id) );
     }
     
     public function del($id)
     {
-        $this->db->delete( 'Usuario', array('id' => $id) ); 
+        $this->db->delete( 'usuario', array('id' => $id) ); 
     }
     
     function get_by_UsuarioTipo_id( $UsuarioTipo_id )
     {
         $q = $this->db->order_by( 'nombre', 'asc' );
         $q = $this->db->where( array('UsuarioTipo_id' => $UsuarioTipo_id) );
-        $q = $this->db->get( 'Usuario' );
+        $q = $this->db->get( 'usuario' );
         return $q->result();
     }
     
@@ -48,7 +48,7 @@ class M_usuario extends CI_Model{
         $q = $this->db->order_by('nombre', 'asc');
         $q = $this->db->where( 'id !=', $cliente_id );
         $q = $this->db->where( array('Empresa_id' => $empresa_id, 'ciudad' => $ciudad, 'UsuarioTipo_id' => $usuariotipo_id ) );
-        $q = $this->db->get( 'Usuario');
+        $q = $this->db->get( 'usuario');
         return $q->result();
     }
     

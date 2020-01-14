@@ -2,7 +2,7 @@
  * Archivo de configuracion y funciones de proposito general
  *
  */
-var WDIR = 'iet/index.php/';
+var WDIR = '';
 //var WDIR = 'licipsa/'; //Change to '' if is on root
 var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;
 

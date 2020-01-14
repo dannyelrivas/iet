@@ -87,8 +87,8 @@
         <?php endforeach; ?>
 
         <br />
-        <h4>Colaboradores</h4>
-        <?php foreach($colabs as $i): ?>
+        <h4>Control Escolar</h4>
+        <?php foreach($control_escolar as $i): ?>
             <div class="well well-sm well-lista">
                 <?php echo anchor("", $i->nombre." ".$i->apellidoPaterno." ".$i->apellidoMaterno, array("usuario_id"=>$i->id, "class"=>"item_usuario" )); ?>
                 <?php echo anchor("usuario/del", " ", array("usuario_id"=>$i->id, "class" => "right del_usuario" )); ?>
@@ -96,8 +96,16 @@
         <?php endforeach; ?>
 
         <br />
-        <h4>Control Escolar</h4>
-        <?php foreach($control_escolar as $i): ?>
+        <h4>Salidas</h4>
+        <?php foreach($salidas as $i): ?>
+            <div class="well well-sm well-lista">
+                <?php echo anchor("", $i->nombre." ".$i->apellidoPaterno." ".$i->apellidoMaterno, array("usuario_id"=>$i->id, "class"=>"item_usuario" )); ?>
+                <?php echo anchor("usuario/del", " ", array("usuario_id"=>$i->id, "class" => "right del_usuario" )); ?>
+            </div>
+        <?php endforeach; ?>
+        <br />
+        <h4>Profesores</h4>
+        <?php foreach($salon as $i): ?>
             <div class="well well-sm well-lista">
                 <?php echo anchor("", $i->nombre." ".$i->apellidoPaterno." ".$i->apellidoMaterno, array("usuario_id"=>$i->id, "class"=>"item_usuario" )); ?>
                 <?php echo anchor("usuario/del", " ", array("usuario_id"=>$i->id, "class" => "right del_usuario" )); ?>

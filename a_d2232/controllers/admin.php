@@ -8,7 +8,7 @@
         function __construct()
         {
             parent::__construct();
-            $this->load->model(array('m_usuario', 'm_usuario_tipo', 'm_alumnos'));
+            $this->load->model(array('m_usuario', 'm_usuario_tipo', 'm_alumnos', 'm_empresa', 'm_evaluacion'));
             $this->load->library(array('password', 'formulario', 'fechas', 'table'));
 
             $this->usuario = $this->m_usuario->get($this->session->userdata('id'));
@@ -31,8 +31,9 @@
 
             //Tipos de usuario
             $tipo_admin = $this->m_usuario_tipo->get_by_tipo('ADMIN');
-            $tipo_colab = $this->m_usuario_tipo->get_by_tipo('COLABORADOR');
-            $tipo_control_escolar = $this->m_usuario_tipo->get_by_tipo('CONTROL ESCOLAR');
+            $tipo_control_escolar = $this->m_usuario_tipo->get_by_tipo('CONTROL');
+            $tipo_salidas = $this->m_usuario_tipo->get_by_tipo('SALIDAS');
+            $tipo_salon = $this->m_usuario_tipo->get_by_tipo('SALON');
 
             //Administradores
             $data['admins'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_admin->id);
@@ -40,8 +41,11 @@
             //Clientes
             $data['control_escolar'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_control_escolar->id);
 
-            //Colaboradores
-            $data['colabs'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_colab->id);
+            //Salidas
+            $data['salidas'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_salidas->id);
+
+            //Salon
+            $data['salon'] = $this->m_usuario->get_by_UsuarioTipo_id($tipo_salon->id);
 
             //Dropdown de Tipos de Cuenta
             $data['dropdown_tipos_usuario'] = $this->formulario->dropdown_gen('m_usuario_tipo', 'id', 'tipo');
@@ -154,7 +158,7 @@
             $data['usuario'] = $this->usuario;
             $data['reportes'] = $reportes;
 
-            $data['page_title'] = 'IET - Reportes y consulta de solicitudes';
+            $data['page_title'] = 'IET - Reportes y consulta de salidas';
 
             $this->load->view('admin/v_head_admin', $data);
             $this->load->view('admin/v_reportes_admin');
