@@ -62,8 +62,9 @@
 			          video.pause();
 					  video.src="";
 
-			          //var WDIR = 'licipsa/'; //Change to '' if is on root
-			          var WDIR = 'iet/index.php/'; //Change to '' if is on root
+			          //var WDIR = 'licipsa/'; //Local Bonilla
+			          //var WDIR = 'iet/index.php/'; //local Rivas
+			          var WDIR = ''; //Vacio para PROD
     				  var WROOT = location.protocol+'//'+document.location.hostname+'/' + WDIR;
 
 			          $.ajax({
